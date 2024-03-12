@@ -1,0 +1,3 @@
+com.example.a62043258_profile.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

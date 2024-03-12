@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\font_rubik_mono_one.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\font\\rubik_mono_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_profile_resize_2.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\profile_resize_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.a62043258_profile.app-debug-31:/drawable_combat.png.flat",
+        "source": "com.example.a62043258_profile.app-main-33:/drawable/combat.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_hideout.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\hideout.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_likee.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\likee.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_map.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\map.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_profine.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\profine.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_image_survivall.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\image_survivall.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_profile_avatar_resize.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\profile_avatar_resize.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_setting.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\setting.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_communityy.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\communityy.png"
+    },
+    {
+        "merged": "com.example.a62043258_profile.app-debug-31:/drawable_statuss.png.flat",
+        "source": "com.example.a62043258_profile.app-main-33:/drawable/statuss.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_kdd.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\kdd.png"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\font_rubik_light.xml.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\font\\rubik_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-debug-31:\\drawable_playtimee.png.flat",
+        "source": "C:\\Users\\Mine\\.gradle\\daemon\\8.4\\com.example.a62043258_profile.app-main-33:\\drawable\\playtimee.png"
+    },
+    {
+        "merged": "com.example.a62043258_profile.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.a62043258_profile.app-main-33:/layout/activity_main.xml"
+    }
+]
