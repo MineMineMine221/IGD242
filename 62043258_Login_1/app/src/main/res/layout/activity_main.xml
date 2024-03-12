@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/icon_image1" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/inputPassworld"
         android:layout_width="352dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -55,13 +55,13 @@
         android:inputType="textPassword"
         android:textColor="#F2F2F2"
         android:textColorHint="#A8F2F2F2"
-        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="@+id/inputUsername"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextText"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintStart_toStartOf="@+id/inputUsername"
+        app:layout_constraintTop_toBottomOf="@+id/inputUsername" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/inputUsername"
         android:layout_width="352dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -82,11 +82,11 @@
         android:fontFamily="@font/rubik_mono_one"
         android:text="Forgot Password"
         android:textColor="#f2f2f2"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintEnd_toEndOf="@+id/inputPassworld"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassworld" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtUserName"
         android:layout_width="153dp"
         android:layout_height="17dp"
         android:layout_marginStart="104dp"
@@ -94,7 +94,7 @@
         android:text="Don’t have an account?"
         android:textColor="#f2f2f2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogni"
         tools:fontFamily="@font/rubik_light" />
 
     <TextView
@@ -105,18 +105,30 @@
         android:fontFamily="@font/rubik_light"
         android:text="sign up"
         android:textColor="#273DFF"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/txtUserName"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogni" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnLogni"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Login"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/inputPassworld"
         app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/inputPassworld"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/txtnoti"
+        android:layout_width="113dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textColor="#f2f2f2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

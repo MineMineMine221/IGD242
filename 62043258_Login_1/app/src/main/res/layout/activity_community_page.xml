@@ -78,16 +78,36 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
 
-                <Button
-                    android:id="@+id/ft_btn3"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/communityy"
-                    android:padding="50dp"
-                    android:text="fhj"
-                    android:textColor="#00FFFFFF" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/ft_btn3"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/communityy"
+                        android:padding="50dp"
+                        android:text="fhj"
+                        android:textColor="#00FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/box_border" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <Space
                     android:layout_width="wrap_content"
@@ -222,7 +242,7 @@
                         app:srcCompat="@drawable/profile52" />
 
                     <TextView
-                        android:id="@+id/textView22"
+                        android:id="@+id/txtUsernameCOM"
                         android:layout_width="150dp"
                         android:layout_height="48dp"
                         android:layout_marginStart="8dp"
