@@ -44,16 +44,19 @@ public class MainActivity extends AppCompatActivity {
     private  void Fn_Page1()
     {
         Intent intent = new Intent(this,Page1Activity.class);
+        StaticDataTest.m_userName = "AAAA1";
         startActivity(intent);
     }
     private  void Fn_Page2()
     {
         Intent intent = new Intent(this,Page2Activity.class);
+        StaticDataTest.m_userName = "AAAA2";
         startActivity(intent);
     }
     private  void Fn_Page3()
     {
         Intent intent = new Intent(this,Pang3Activity.class);
+        StaticDataTest.m_userName = "AAAA3";
         startActivity(intent);
     }
 }
