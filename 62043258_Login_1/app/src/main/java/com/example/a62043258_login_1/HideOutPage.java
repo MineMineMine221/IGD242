@@ -1,15 +1,23 @@
 package com.example.a62043258_login_1;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import java.util.Random;
 
 public class HideOutPage extends AppCompatActivity {
 
@@ -18,6 +26,7 @@ public class HideOutPage extends AppCompatActivity {
     private Button m_ft_btn3;
     private Button m_ft_btn4;
     private Button m_ft_btn5;
+    private ListView m_listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +43,8 @@ public class HideOutPage extends AppCompatActivity {
         m_ft_btn3 = (Button) findViewById((R.id.ft_btn3));
         m_ft_btn4 = (Button) findViewById((R.id.ft_btn4));
         m_ft_btn5 = (Button) findViewById((R.id.ft_btn5));
-
+        m_listView = (ListView) findViewById(R.id.listHideOut);
+        m_listView.setAdapter(new HideOutCraftListView(getApplicationContext()));
         m_ft_btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,5 +100,59 @@ public class HideOutPage extends AppCompatActivity {
     {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+    }
+
+    public  class HideOutCraftListView extends BaseAdapter
+    {
+        public Context m_context;
+        public LayoutInflater m_layoutInflater;
+
+        public  HideOutCraftListView(Context context)
+        {
+            m_context = context;
+            m_layoutInflater = LayoutInflater.from(m_context);
+        }
+        @Override
+        public int getCount() {
+            return 20;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int i, View view, ViewGroup parent) {
+
+            ViewHolder holder = null;
+            if(holder == null)
+            {
+                view = m_layoutInflater.inflate(R.layout.hideout_item,null);
+                holder = new ViewHolder();
+                holder.m_txtTime = view.findViewById(R.id.txtTime);
+                view.setTag(holder);
+            }
+            else
+            {
+                holder = (ViewHolder) view.getTag();
+            }
+
+            int m = new Random().nextInt(49) + 10;
+            int s = new Random().nextInt(39) + 20;
+
+
+           holder.m_txtTime.setText(String.valueOf(m) + " min \n"+ String.valueOf(s) +" sec" );
+            return  view;
+        }
+    }
+    public  class ViewHolder
+    {
+        TextView m_txtTime;
     }
 }

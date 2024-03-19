@@ -1,9 +1,14 @@
 package com.example.a62043258_login_1;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -11,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class CommunityPage extends AppCompatActivity {
 
@@ -19,7 +25,8 @@ public class CommunityPage extends AppCompatActivity {
     private Button m_ft_btn3;
     private Button m_ft_btn4;
     private Button m_ft_btn5;
-    private TextView m_txtUsername;
+  //  private TextView m_txtUsername;
+    private ListView m_list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,9 +43,10 @@ public class CommunityPage extends AppCompatActivity {
         m_ft_btn3 = (Button) findViewById(R.id.ft_btn3);
         m_ft_btn4 = (Button) findViewById(R.id.ft_btn4);
         m_ft_btn5 = (Button) findViewById(R.id.ft_btn5);
-        m_txtUsername = (TextView) findViewById(R.id.txtUsernameCOM);
-
-        m_txtUsername.setText(MainActivity.name);
+       // m_txtUsername = (TextView) findViewById(R.id.txtUsernameCOM);
+        m_list = (ListView) findViewById(R.id.listCommu);
+        m_list.setAdapter(new PostListView(getApplicationContext()));
+     //   m_txtUsername.setText(MainActivity.name);
 
         m_ft_btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,4 +105,57 @@ public class CommunityPage extends AppCompatActivity {
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
+
+public  class PostListView extends BaseAdapter
+{
+    public Context m_context;
+    public LayoutInflater m_layoutInflater;
+
+        public  PostListView(Context context)
+        {
+            m_context = context;
+            m_layoutInflater = LayoutInflater.from(m_context);
+        }
+    @Override
+    public int getCount() {
+        return 20;
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    @Override
+    public View getView(int i, View view, ViewGroup parent) {
+
+        ViewHolder holder = null;
+        if(holder == null)
+        {
+            view = m_layoutInflater.inflate(R.layout.post_layout,null);
+            holder = new ViewHolder();
+            holder.m_name = view.findViewById(R.id.txtUsernameCOM);
+            view.setTag(holder);
+        }
+        else
+        {
+            holder = (ViewHolder) view.getTag();
+        }
+
+
+
+        holder.m_name.setText("LalyTheRat" + (i + 1) );
+        return  view;
+    }
+}
+    public  class ViewHolder
+    {
+        TextView m_name;
+    }
+
 }
