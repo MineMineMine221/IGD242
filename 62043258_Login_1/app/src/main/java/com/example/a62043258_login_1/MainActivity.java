@@ -72,6 +72,24 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this,ProfilePage.class);
             startActivity((intent));
         }
+        else if(userName.equals("web1") && passWorld.equals("1234"))
+        {
+            name = "web1";
+            Intent intent = new Intent(this,ballisticsLayout.class);
+            startActivity((intent));
+        }
+        else if(userName.equals("slide1") && passWorld.equals("1234"))
+        {
+            name = "slide1";
+            Intent intent = new Intent(this,gameImages.class);
+            startActivity((intent));
+        }
+        else if(userName.equals("view1") && passWorld.equals("1234"))
+        {
+            name = "view1";
+            Intent intent = new Intent(this,videoView.class);
+            startActivity((intent));
+        }
         else {
             m_loginCount--;
             m_txtnoti.setVisibility(View.VISIBLE);
